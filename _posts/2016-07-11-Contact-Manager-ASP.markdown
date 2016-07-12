@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2016-07-11
-img: CM-Demo.PNG
+img: CM-Demo.svg
 alt: image-alt
 project-date: April 2016
 client: Practice
