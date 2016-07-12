@@ -459,5 +459,6 @@ footer .footer-below {
 
 .list-no-style {
     list-style: none;
+    margin: auto;
 }
 
