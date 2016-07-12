@@ -459,7 +459,7 @@ footer .footer-below {
 
 .list-no-style {
     list-style: none;
-    margin: auto;
+    margin-left: 100px;
     font-size: 1.5em;
 }
 
