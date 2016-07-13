@@ -463,3 +463,7 @@ footer .footer-below {
     font-size: 1.5em;
 }
 
+.alt-link-style {
+    color: #{{ site.color.secondary }};
+}
+
