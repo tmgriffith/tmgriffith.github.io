@@ -2,7 +2,7 @@
 title: Tim Griffith
 email: tmgriffith1991@gmail.com
 url: https://tmgriffith.github.io
-description: "This is the portfolio website of Timothy Griffith, where he displays all his current and past projects. Tim is a Full Stack JavaScript Developer  who specializes in web development."
+description: "This is the portfolio website of Timothy Griffith, where he displays all his current and past projects. Tim is a Full Stack JavaScript Developer who specializes in web development."
 skills: "Full Stack Web Developer"
 meta_author: Griffith Tim
 
@@ -21,6 +21,7 @@ contact: static
 # If you use disqus you need disqus shortname
 # https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: myshortname
+
 
 # Color settings (hex-codes without the leading hash-tag)
 color:

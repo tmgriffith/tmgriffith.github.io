@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tim Griffith</title>
+    <description>This is the portfolio website of Timothy Griffith, where he displays all his current and past projects. Tim is a Full Stack JavaScript Developer  who specializes in web development.</description>
+    <link>https://tmgriffith.github.io/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 13 Jul 2016 18:56:38 -0700</pubDate>
+    <lastBuildDate>Wed, 13 Jul 2016 18:56:38 -0700</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Tim Griffith Portfolio</title>
+        <description>My portfolio webpage uses a self-customized template from &lt;a href=http://startbootstrap.com/&gt;startbootstrap.com&lt;/a&gt; called &lt;a href=http://startbootstrap.com/template-overviews/freelancer/&gt;The Freelancer&lt;/a&gt;. It contains some custom logic and CSS styles. It is still a work in progress and is my primary focus as a side project. So far in my experience I have focused heavily on backend logic and making things work, however, this site allows me to tinker around with frontend frameworks like Bootstrap and get more familiar with design. All of the images are custom made in illustrator. They are all fairly basic, as I like a more minimalist approach to design. In the near future I will be posting some design work I have done on my current project, “Smart Garden”. Thanks for checking my portfolio out. If you have any suggestions or would like to contact me about any design/programming projects you would like to employ my services for, please &lt;a href=https://tmgriffith.github.io/#contact&gt;send me a message!&lt;/a&gt;</description>
+        <pubDate>Tue, 12 Jul 2016 00:00:00 -0700</pubDate>
+        <link>https://tmgriffith.github.io/web%20development/2016/07/12/Tim-Griffith-Portfolio/</link>
+        <guid isPermaLink="true">https://tmgriffith.github.io/web%20development/2016/07/12/Tim-Griffith-Portfolio/</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+      <item>
+        <title>Message Me</title>
+        <description>This app was my first attempt at using the powerful Meteor.js platform. It is still a work in progress, and right now all that one can do is log in and create a message thread, then add users to the thread, and allow other users to accept invites to participate in the conversation. The style was created with simple LESS files and the LESS compiler built for the Meteor platform. Also uses Bootstrap 4.0alpha. The frontend was built using Angular 1.5 and in the future it will be converted over to Angular 2.0. The app maintains connection with a web socket and updates the client and the server simultaneously, displaying some of the fastest response times achievable. Unfortunately the Meteor.js team took down their free hosting platform and there is little available at the moment for me to be able to display a working version on the internet currently. However, all of the source code is currently housed on my Github account&lt;strong&gt; &lt;a href=&quot;https://github.com/tmgriffith/message-me-app&quot;&gt;here&lt;/a&gt;&lt;/strong&gt;. If you would like to see it in action you will need to clone it and then run it from the command line. Just run &quot;meteor npm install&quot; first, then &quot;meteor&quot; in the command prompt and off it will go&amp;#42;.&lt;br&gt;&lt;small&gt;&amp;#42;You will need to be sure meteor is already installed before running these scripts in your command line. &lt;a href=&quot;https://www.meteor.com/install&quot;&gt;Click Here&lt;/a&gt; for install instructions&lt;/small&gt;</description>
+        <pubDate>Tue, 12 Jul 2016 00:00:00 -0700</pubDate>
+        <link>https://tmgriffith.github.io/web%20development/2016/07/12/Message-Me/</link>
+        <guid isPermaLink="true">https://tmgriffith.github.io/web%20development/2016/07/12/Message-Me/</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+      <item>
+        <title>Contact Manager Asp</title>
+        <description>This project was built in ASP.net MVC6. It showcases my ability to use MVC frameworks, C# and SQL databases. The application requires a user to log in, then will display contact info in the form of a table. The data is populated from a SQL database and is queried using the Entity framework. With the use of models, I organized the data to be collected and stored, and then in the Contact Controller I gave users who are logged in the privilege to perform CRUD (Create, Read, Update, and Delete) functions on the data. In addition, is  configured with an alternative log-in using Google authentication through the Oauth-2 plugin. Contact Manager hosted on Microsoft&#39;s cloud service Azure. Go ahead and give it a &lt;strong&gt;&lt;a href=&quot;https://contactmanager20160524100127.azurewebsites.net/Contacts&quot;&gt;test&lt;/a&gt;&lt;/strong&gt;.</description>
+        <pubDate>Mon, 11 Jul 2016 00:00:00 -0700</pubDate>
+        <link>https://tmgriffith.github.io/web%20development/2016/07/11/Contact-Manager-ASP/</link>
+        <guid isPermaLink="true">https://tmgriffith.github.io/web%20development/2016/07/11/Contact-Manager-ASP/</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+  </channel>
+</rss>
