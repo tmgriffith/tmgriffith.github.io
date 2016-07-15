@@ -4,8 +4,20 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+/* All parts commented out were replaced with custom modifications */
+
 body {
     overflow-x: hidden;
+
+    /* Hero Image Fixed Background */
+    background: url(img/HeroImage.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
+
+
 }
 
 p {
@@ -34,6 +46,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #fff;
 }
 
 hr.star-light,
@@ -48,7 +61,6 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -82,23 +94,25 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background: #{{ site.color.primary }};
+    /*color: {{ site.color.primary }};
+    background: #{{ site.color.primary }};*/
 }
 
-header .container {
+header .container-fluid {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
 header img {
-    display: block;
+    /*display: block;
     margin: 0 auto 20px;
-    border-radius: 50%;
-}
+    border-radius: 50%; */ 
 }
 
+
+
 header .intro-text .name {
-    display: block;
+    position: relative;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
@@ -111,7 +125,7 @@ header .intro-text .skills {
 }
 
 @media(min-width:768px) {
-    header .container {
+    header .container-fluid {
         padding-top: 200px;
         padding-bottom: 100px;
     }
@@ -153,6 +167,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+
 }
 
 .navbar a:focus {
@@ -183,7 +198,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+    /*background: #{{ site.color.primary }};*/
 }
 
 @media(max-width:767px) {
@@ -269,6 +284,10 @@ section.success {
     border: solid 2px #fff;
     color: #{{ site.color.primary }};
     background: #fff;
+}
+
+.form-text-color {
+    color: #FFF9F6; /*added this to override bootstrap inherit */
 }
 
 .floating-label-form-group {
@@ -447,7 +466,9 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    /*background-color: #{{ site.color.secondary-dark }} !important;
+    color: #{{ site.color.secondary-dark }} !important;*/
+    text-decoration: underline !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -457,13 +478,10 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-.list-no-style {
+.list-no-style { /* added this to style list in about section*/
     list-style: none;
     margin-right: 8%;
     font-size: 1.5em;
 }
 
-.alt-link-style {
-    color: #{{ site.color.secondary }};
-}
 
