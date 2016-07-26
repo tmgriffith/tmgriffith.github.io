@@ -5,6 +5,7 @@ url: https://tmgriffith.github.io
 description: "This is the portfolio website of Timothy Griffith, where he displays all his current and past projects. Tim is a Full Stack JavaScript Developer who specializes in web development."
 skills: "Full Stack Web Developer"
 meta_author: Griffith Tim
+favicon: /favicon.ico
 
 # Google webmaster tools
 google_verify:
