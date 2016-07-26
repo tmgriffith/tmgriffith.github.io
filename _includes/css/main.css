@@ -9,15 +9,15 @@
 body {
     overflow-x: hidden;
 
-    /* Hero Image Fixed Background */
+    /* Hero Image Fixed Background 
     background: url(img/HeroImage.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin: 0 auto;
+    margin: 0 auto;*/
 
-
+    color: #000;
 }
 
 p {
@@ -44,9 +44,10 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    color: #fff;
+    font-family: "Myraid Web Pro", Geneva, sans-serif;
+    font-weight: 550;
+   /* color: #fff;*/
+
 }
 
 hr.star-light,
@@ -70,11 +71,11 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #fff;
+    border-color: #ffffff;
 }
 
 hr.star-light:after {
-    color: #fff;
+    /*color: #fff;*/
     background-color: #{{ site.color.primary }};
 }
 
@@ -93,7 +94,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    /*color: #fff;*/
     /*color: {{ site.color.primary }};
     background: #{{ site.color.primary }};*/
 }
@@ -101,6 +102,14 @@ header {
 header .container-fluid {
     padding-top: 100px;
     padding-bottom: 50px;
+    color: white;
+    
+    background: url(img/HeroImage.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 header img {
@@ -114,9 +123,9 @@ header img {
 header .intro-text .name {
     position: relative;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Myraid Web Pro", Geneva, sans-serif;
     font-size: 2em;
-    font-weight: 700;
+    font-weight: 550;
 }
 
 header .intro-text .skills {
@@ -165,8 +174,8 @@ header .intro-text .skills {
 
 .navbar {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: "Myraid Web Pro", Geneva, sans-serif;;
+    font-weight: 550;
 
 }
 
@@ -184,7 +193,30 @@ header .intro-text .skills {
 
 .navbar-default,
 .navbar-inverse {
-    border: 0;
+    border-bottom: 1px;
+    border-color: #000000;
+}
+
+.navbar-img {
+    display: ;
+    float: right;
+}
+
+.navbar-font-color {
+    color: #000;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #0c0c0c;
+}
+.navbar-default .navbar-brand {
+    color: #0c0c0c;
+}        
+.navbar-default {
+    background-color: #ffffff;
+    border-bottom:1px;
+    border-color: #000;
+    border-style: solid; 
 }
 
 section {
@@ -197,7 +229,7 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
+    /*color: #fff;
     /*background: #{{ site.color.primary }};*/
 }
 
@@ -246,7 +278,7 @@ section.success {
     margin-top: -12px;
     text-align: center;
     font-size: 20px;
-    color: #fff;
+    /*color: #fff;*/
 }
 
 #portfolio .portfolio-item .portfolio-link .caption .caption-content i {
@@ -268,11 +300,18 @@ section.success {
     }
 }
 
+section .sucess #about {
+    border-top: 1px;
+    border-style: solid;
+    border-color: #000000;
+    background-color: #fff04f;
+}
+
 .btn-outline {
     margin-top: 15px;
-    border: solid 2px #fff;
+    border: solid 2px #000;
     font-size: 20px;
-    color: #fff;
+    color: #000;
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -286,15 +325,11 @@ section.success {
     background: #fff;
 }
 
-.form-text-color {
-    color: #FFF9F6; /*added this to override bootstrap inherit */
-}
-
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #000;
 }
 
 .floating-label-form-group input,
@@ -330,7 +365,7 @@ section.success {
 
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
-    border-left: 1px solid #eee;
+    border-left: 1px solid #000;
 }
 
 .floating-label-form-group-with-value label {
@@ -343,7 +378,11 @@ section.success {
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #000;
+}
+
+.form-control {
+    color: #000;
 }
 
 footer {
@@ -356,7 +395,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 footer .footer-col {
@@ -368,6 +407,12 @@ footer .footer-below {
     background-color: #{{ site.color.secondary-dark }};
 }
 
+.btn-success {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+
 .btn-social {
     display: inline-block;
     width: 50px;
@@ -377,6 +422,7 @@ footer .footer-below {
     text-align: center;
     font-size: 20px;
     line-height: 45px;
+    color: #fff;
 }
 
 .btn:focus,
@@ -483,5 +529,7 @@ footer .footer-below {
     margin-right: 8%;
     font-size: 1.5em;
 }
+
+
 
 
