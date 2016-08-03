@@ -5,9 +5,21 @@
     <description>This is the portfolio website of Timothy Griffith, where he displays all his current and past projects. Tim is a Full Stack JavaScript Developer who specializes in web development.</description>
     <link>https://tmgriffith.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 27 Jul 2016 08:36:22 -0700</pubDate>
-    <lastBuildDate>Wed, 27 Jul 2016 08:36:22 -0700</lastBuildDate>
+    <pubDate>Wed, 03 Aug 2016 14:40:54 -0700</pubDate>
+    <lastBuildDate>Wed, 03 Aug 2016 14:40:54 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Nine10photo</title>
+        <description>This was a redesign project I did while freelancing. Check it out &lt;a href=&quot;http://nine10photo.com/&quot;&gt;HERE&lt;/a&gt;. &lt;br&gt;My goal for this project was to ensure the site was mobile friendly while modernizing the layout and feel. I had to write some PHP to reorganize the theme template and used copious amounts of CSS to get the layout to be more user friendly, while maintaining a modern feel.&lt;br&gt; The template gave all pages a weird black border, and there was two different footers. A plugin loaded two versions of jQuery and displayed a waring message on Chrome when trying to login. These were some of the problems that I worked to resolve to ensure a seemless user experience.</description>
+        <pubDate>Mon, 01 Aug 2016 00:00:00 -0700</pubDate>
+        <link>https://tmgriffith.github.io/web%20development/%20wordpress/2016/08/01/Nine10Photo/</link>
+        <guid isPermaLink="true">https://tmgriffith.github.io/web%20development/%20wordpress/2016/08/01/Nine10Photo/</guid>
+        
+        
+        <category>Web Development/ WordPress</category>
+        
+      </item>
     
       <item>
         <title>Tim Griffith Portfolio</title>
