@@ -2,7 +2,7 @@
 layout: default
 modal-id: 2
 date: 2016-07-12
-img: message-me.svg
+img: message-me.png
 alt: image-alt
 project-date: June 2016
 client: Practice

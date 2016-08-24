@@ -2,7 +2,7 @@
 layout: default
 modal-id: 1
 date: 2016-07-11
-img: CM-Demo.svg
+img: CM-Demo.png
 alt: image-alt
 link: https://contactmanager20160524100127.azurewebsites.net/Contacts
 project-date: April 2016

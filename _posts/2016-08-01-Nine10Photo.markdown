@@ -2,12 +2,12 @@
 layout: default
 modal-id: 5
 date: 2016-08-01
-img: nine10.svg
+img: nine10.png
 alt: image-alt
 link: http://nine10photo.com/
 project-date: July 2016
 client: Nine10Photobooths
 category: Web Development/ WordPress
-description: This was a redesign project I did while freelancing. Check it out <a href="http://nine10photo.com/">HERE</a>. <br>My goal for this project was to ensure the site was mobile friendly while modernizing the layout and feel. I had to write some PHP to reorganize the theme template and used copious amounts of CSS to get the layout to be more user friendly, while maintaining a modern feel.<br> The template gave all pages a weird black border, and there was two different footers. A plugin loaded two versions of jQuery and displayed a waring message on Chrome when trying to login. These were some of the problems that I worked to resolve to ensure a seemless user experience. 
+description: This was a redesign project I did while freelancing. Check it out <a href="http://nine10photo.com/">HERE</a>. <br>My goal for this project was to ensure the site was mobile friendly while modernizing the layout and feel. I had to write some PHP to reorganize the theme template and used copious amounts of CSS to get the layout to be more user friendly, while maintaining a modern feel.<br> The template gave all pages a weird black border, and there was two different footers. A plugin loaded two versions of jQuery and displayed a waring message on Chrome when trying to login. These were some of the problems that I worked to resolve to ensure a seemless user experience.
 
 ---
