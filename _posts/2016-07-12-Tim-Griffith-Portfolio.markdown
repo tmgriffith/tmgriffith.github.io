@@ -2,7 +2,7 @@
 layout: default
 modal-id: 4
 date: 2016-07-12
-img: tmgriffith.io.svg
+img: tmgriffith.io.png
 alt: image-alt
 project-date: July 2016
 client: Portfolio
