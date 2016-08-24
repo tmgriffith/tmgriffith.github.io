@@ -5,9 +5,21 @@
     <description>This is the portfolio website of Timothy Griffith, where he displays all his current and past projects. Tim is a Full Stack JavaScript Developer who specializes in web development.</description>
     <link>https://tmgriffith.github.io/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 24 Aug 2016 12:45:39 -0700</pubDate>
-    <lastBuildDate>Wed, 24 Aug 2016 12:45:39 -0700</lastBuildDate>
+    <pubDate>Wed, 24 Aug 2016 13:12:51 -0700</pubDate>
+    <lastBuildDate>Wed, 24 Aug 2016 13:12:51 -0700</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Soundseed</title>
+        <description>This was a company website for a project I am involved in currently. It follows a single page design and is integrated with MailChimp for the forms. It has google analytics integrated as well. In building this site I decided to get more familiar with Sass for pre-compiling the CSS and being able to quickly change design features. &lt;a href=&quot;http://www.soundseed.co&quot;&gt;Check out the full site here&lt;/a&gt;.</description>
+        <pubDate>Tue, 23 Aug 2016 00:00:00 -0700</pubDate>
+        <link>https://tmgriffith.github.io/web%20development/2016/08/23/Soundseed/</link>
+        <guid isPermaLink="true">https://tmgriffith.github.io/web%20development/2016/08/23/Soundseed/</guid>
+        
+        
+        <category>Web Development</category>
+        
+      </item>
     
       <item>
         <title>Nine10photo</title>
